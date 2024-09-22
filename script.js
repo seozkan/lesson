@@ -28,7 +28,7 @@ function updateLessonInfo() {
     // Teneffüsteyse
     if (timeInCurrentLesson >= lessonDuration) {
         timeLeftEl.textContent = `Tenfs.`;
-        percentageCompleteEl.textContent = "100";
+        percentageCompleteEl.textContent = "%100";
         circleEl.style.strokeDashoffset = totalLength;
     } else {
         // Ders süresi
