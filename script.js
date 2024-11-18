@@ -1,4 +1,4 @@
-const startTime = "13:30";
+const startTime = "13:20";
 const lessonDuration = 30 * 60;
 const breakDuration = 10 * 60; 
 const lessonsPerDay = 7;
